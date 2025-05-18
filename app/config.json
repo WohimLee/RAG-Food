@@ -1,0 +1,5 @@
+{
+    "workspace": "/Users/azen/Desktop/llm/RAG-Food",
+    "raw_data": "/Users/azen/Desktop/llm/data/recipe_corpus_full.json",
+    "num_samples": 1000
+}
