@@ -13,10 +13,10 @@ def sample_data(file, num=None):
     return samples
 
 if __name__ == "__main__":
-    config_file = "/Users/azen/Desktop/llm/RAG-Food/app/config.json"
+    config_file = "/Users/azen/Desktop/llm/RAG-Food/config/config.json"
     config = load_config(config_file)
 
-    num = 2000
+    num = 1000
     samples = sample_data(config["raw_data"], num=num)
 
     save_name = os.path.join(config["workspace"], "data")
