@@ -1,0 +1,3 @@
+[submodule "models/Qwen3-0.6B"]
+	path = models/Qwen3-0.6B
+	url = https://www.modelscope.cn/Qwen/Qwen3-0.6B.git
